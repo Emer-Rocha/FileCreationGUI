@@ -157,7 +157,7 @@ public class fileCreationGUI extends JFrame implements ActionListener{
         // Declaring path name to concatenate it to where it will go 
         
         
-            for (int i =0; i <= totalFiles; i++) { 
+            for (int i =1; i <= totalFiles; i++) { 
                 String fileName = "File # " + i + ".txt"; 
                 if (new File(this.pathNameTxt+fileName).createNewFile()) { 
 
