@@ -2,7 +2,7 @@
 /* Purpose: This file will create empty .txt files of whatever the user dictates */
 
 
-
+package fileCreationFolder;
 // import packages 
 import java.io.File;
 import java.io.IOException;
@@ -50,9 +50,7 @@ public class fileCreation {
         if (i == totalFiles) { 
             JOptionPane.showMessageDialog(null,"A total of " + i + " have been created");
         }
-      }
-      
-
-    }
-  }  
-}
+      } // end of for loop
+    } // end of else if branch
+  }  // end of main
+} // end of class
